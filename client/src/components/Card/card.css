@@ -1,0 +1,36 @@
+.card-img-custom{
+    height: 12rem;
+}
+.card-width{
+    box-shadow: 3px 3px 8px rgba(209, 209, 209, 0.397);
+}
+@media screen and (max-width: 800px) {
+    .card-width {
+        display: inline-block;
+        width: 20rem;
+    }
+    .card-width:hover{
+        transition: 0.2s ease-in-out;
+        box-shadow: 5px 5px 8px rgba(129, 129, 129, 0.397);
+    }
+}
+@media screen and (min-width:801px) and (max-width: 1099px) {
+    .card-width {
+        display: inline-block;
+        width: 22rem;
+    }
+    .card-width:hover{
+        transition: 0.2s ease-in-out;
+        box-shadow: 5px 5px 8px rgba(129, 129, 129, 0.397);
+    }
+}
+@media screen and (min-width: 1100px) {
+    .card-width {
+        display: inline-block;
+        width: 26rem;
+    } 
+    .card-width:hover{
+        transition: 0.2s ease-in-out;
+        box-shadow: 5px 5px 8px rgba(129, 129, 129, 0.397);
+    }
+}
