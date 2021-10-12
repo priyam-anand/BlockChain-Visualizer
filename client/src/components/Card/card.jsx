@@ -4,7 +4,7 @@ const Card = ({ cardTitle, cardText, cardImg }) => {
     return (
         <>
             <div className="card card-width my-5">
-                <img className="card-img-top card-img-custom" src={cardImg} alt="Card image cap" />
+                <img className="card-img-top card-img-custom" src={cardImg} alt="" />
                 <div className="card-body">
                     <h5 className="card-title text-center">{cardTitle}</h5>
                     <p className="card-text text-left">{cardText}</p>

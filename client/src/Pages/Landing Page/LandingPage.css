@@ -4,7 +4,7 @@
     width: 100%;
 }
 .main-heading{
-    height: 60vh;
+    height: 100vh;
     width: 99vw;
     display: flex;
     align-items: center;
@@ -15,13 +15,14 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .heading-welcome-text{
     color: white;
     font-size: 3.8rem;
     text-align: center;
+    padding-bottom: 3rem;
 }
 .heading-welcome-btn{
     position: relative;
